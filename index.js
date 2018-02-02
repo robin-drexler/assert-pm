@@ -2,10 +2,8 @@
 
 const whichPm = require('which-pm-runs');
 const argv = require('yargs')
-  .usage('Usage: $0 --message "Please use yarn"')
-  .option('message', {
-    default: ''
-  })
+  .usage('Usage: $0 yarn --message "Please use yarn"')
+  .option('message')
   .demand(1).argv;
 
 const expectedPm = argv._[0];
