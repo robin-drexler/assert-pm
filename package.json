@@ -1,8 +1,7 @@
 {
   "name": "assert-pm",
-  "description":
-    "Assert that a certain package manager was used when running a yarn/npm script.",
-  "version": "1.0.1",
+  "description": "Assert that a certain package manager was used when running a yarn/npm script.",
+  "version": "1.0.2",
   "main": "index.js",
   "license": "MIT",
   "bin": {
